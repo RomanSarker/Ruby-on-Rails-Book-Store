@@ -5,22 +5,24 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version (ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x64-mingw-ucrt])
-* Rails Version (Rails 7.0.8.1)
-* Database ( )
+- Ruby version (ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x64-mingw-ucrt])
+- Rails Version (Rails 7.0.8.1)
+- Database ( )
 
-* System dependencies
+- System dependencies
 
-* Configuration
+- Configuration
 
-* Database creation
+- Database creation (Sqlite by default)
+  *Server-Puma by Default
+  *package manager-importmap or we can use yesh
 
-* Database initialization
+- Database initialization
 
-* How to run the test suite
+- How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+- Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+- Deployment instructions
 
-* ...
+-
