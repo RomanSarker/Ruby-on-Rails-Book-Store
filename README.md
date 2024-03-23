@@ -24,5 +24,13 @@ Things you may want to cover:
 - Services (job queues, cache servers, search engines, etc.)
 
 - Deployment instructions
+  http://127.0.0.1:3000/rails/info/routes
 
--
+-MVC PATTERN SO EASY---MODEL VIEW CONTROLLER
+
+controller make- rails generate controller contacts
+controller delete- rails d controller contacts
+we can also use home controller for another controller
+server start-rails server
+
+we can use unique route using "as" with rails path helper

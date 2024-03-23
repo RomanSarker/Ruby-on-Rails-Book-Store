@@ -3,7 +3,10 @@ Rails.application.routes.draw do
   # or  match "about/index", to: "about#index", via: :get or
   #  get "about/index", to: "about#index"
 
-  get "about", to: "about#index"
+  # get "about", to: "about#index" if I wand to /use home controller for about controller
+  
+  # get "about", to: "home#about" //to keep unique root below nameroute
+  get "about-index-page", to: "home#about", as: "about"
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
@@ -15,4 +18,6 @@ Rails.application.routes.draw do
   # match "/", to:"home#index", via: :get or 
 
   # get "/", to: "home#index"
+
+  get "contacts", to: "contacts#index"
 end
