@@ -1,20 +1,9 @@
 
-<%
-=begin%>
- <a href="about"> About Page</a> //here we can use rubi helper to do same thing 
-<%
-=end%>
 <h1>Book Store</h1>
-<%
-=begin%>
- <%= link_to "About", about_path(name: "Roman Sarker", id:6) %> <br>  or using hash action below
-<%
-=end%>
 
-<%= link_to "About", {action: "about", name: "Roman", id:5}  %> <br>
 
-<%
-=begin%>
- we can send another controller to write controller: cname index.... 
-<%
-=end%>
+
+
+<%= link_to "Books", books_path %><br/> <br/>
+<%= link_to "About", about_path %> 
+
