@@ -1,9 +1,8 @@
 <h1>Book List:</h1>
 
-<%= link_to "Book_1", book_path  %> <br/> <br/>
-<%= link_to "Book_2", {controller: "books",action:"show"}  %> 
-<%
-=begin%>
- Both are valid 
-<%
-=end%>
+
+<%= link_to("Book_1", book_path(id: 8, name: "TheBird")) %> <br/> <br/>
+<%= link_to("Book_2", { controller: "books", action: "show", id: 1, name: "This2nd" }) %>
+
+
+
