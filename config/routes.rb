@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get "hello", to: "hello#index"
   # get 'about/index'  by default
   # or  match "about/index", to: "about#index", via: :get or
   #  get "about/index", to: "about#index"

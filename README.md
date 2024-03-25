@@ -31,6 +31,42 @@ Things you may want to cover:
 controller make- rails generate controller contacts
 controller delete- rails d controller contacts
 we can also use home controller for another controller
-server start-rails server
+
+server start- rails server
 
 we can use unique route using "as" with rails path helper
+
+redirect example- redirect_to :action => :index
+
+<%
+=begin%>
+<% x= 5+8 %>  
+<%
+=end%>
+<%
+=begin%>
+// % erb tag only processing  
+<%
+=end%>
+<%
+=begin%>
+<%= x= 5+3 %>  
+<%
+=end%>
+<%
+=begin%>
+//equal = process also giving an output
+<%
+=end%>
+
+<%
+=begin%>
+
+ <ul>
+<% @books.each do |book| %>
+<li>
+<%= book %> </li>
+<% end %>
+</ul> 
+<%
+=end%>
